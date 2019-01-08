@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">User Delivery</string>
+  <string name="error_title">Uh Oh</string>
+  <string name="user_list_error_message">There was an error trying to retrieve users near by. Try again later.</string>
+  <string name="user_detail_message">There was an error trying to retrieve details for this user. Try again later.</string>
+  <string name="ok">OK</string>
+</resources>
