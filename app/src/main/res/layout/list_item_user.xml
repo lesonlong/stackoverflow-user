@@ -9,7 +9,7 @@
         type="com.longle.sofuser.presentation.adapter.UserListAdapter.Holder"
         />
   </data>
-  <android.support.constraint.ConstraintLayout
+  <androidx.constraintlayout.widget.ConstraintLayout
       android:layout_width="match_parent"
       android:layout_height="80dp"
       android:padding="10dp"
@@ -66,5 +66,5 @@
         tools:text="22 Mins"
         />
 
-  </android.support.constraint.ConstraintLayout>
+  </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

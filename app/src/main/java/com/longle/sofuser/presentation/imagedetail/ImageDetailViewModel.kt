@@ -1,6 +1,6 @@
 package com.longle.sofuser.presentation.imagedetail
 
-import android.databinding.ObservableField
+import androidx.databinding.ObservableField
 import javax.inject.Inject
 
 class ImageDetailViewModel @Inject constructor() {

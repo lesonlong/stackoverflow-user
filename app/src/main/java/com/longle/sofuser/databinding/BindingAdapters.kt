@@ -1,9 +1,9 @@
 package com.longle.sofuser.databinding
 
-import android.databinding.BindingAdapter
-import android.databinding.BindingConversion
 import android.view.View
 import android.widget.ImageView
+import androidx.databinding.BindingAdapter
+import androidx.databinding.BindingConversion
 import com.squareup.picasso.Picasso
 
 /**

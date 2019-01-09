@@ -1,12 +1,11 @@
 package com.longle.sofuser.presentation.main
 
-import android.databinding.BindingAdapter
-import android.databinding.DataBindingUtil
 import android.os.Bundle
-import android.support.v7.app.AlertDialog
-import android.support.v7.widget.DividerItemDecoration
-import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
+import androidx.appcompat.app.AlertDialog
+import androidx.databinding.BindingAdapter
+import androidx.databinding.DataBindingUtil
+import androidx.recyclerview.widget.DividerItemDecoration
+import androidx.recyclerview.widget.RecyclerView
 import com.longle.sofuser.R
 import com.longle.sofuser.databinding.ActivityMainBinding
 import com.longle.sofuser.ext.addTo
@@ -65,7 +64,6 @@ class MainActivity : BaseActivity() {
       adapter.onItemClickListener = { viewModel.onUserClicked(it) }
       adapter.onImageClickedListener = { viewModel.onUserImageClicked(it) }
       recyclerView.addItemDecoration(DividerItemDecoration(recyclerView.context, DividerItemDecoration.VERTICAL))
-      recyclerView.layoutManager = LinearLayoutManager(recyclerView.context)
       recyclerView.adapter = adapter
     }
   }

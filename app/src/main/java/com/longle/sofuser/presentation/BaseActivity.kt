@@ -1,6 +1,6 @@
 package com.longle.sofuser.presentation
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import com.longle.sofuser.BaseApplication
 import com.longle.sofuser.di.application.ApplicationComponent
 import com.longle.sofuser.di.screen.ScreenModule

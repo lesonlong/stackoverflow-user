@@ -1,9 +1,9 @@
 package com.longle.sofuser.presentation.adapter
 
-import android.databinding.ObservableList
-import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.databinding.ObservableList
+import androidx.recyclerview.widget.RecyclerView
 import com.domain.model.User
 import com.squareup.picasso.Picasso
 import com.longle.sofuser.databinding.ListItemUserBinding

@@ -6,21 +6,25 @@
         type="com.longle.sofuser.presentation.main.MainViewModel"
         />
   </data>
-  <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
       xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:tools="http://schemas.android.com/tools"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       tools:context=".app.presentation.main.MainActivity"
       >
-
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/user_list"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="@dimen/default_list_margin"
-        app:adapter="@{viewModel}"
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@+id/swipe_refresh"
+                                                               android:layout_width="match_parent"
+                                                               android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/user_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/default_list_margin"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    app:adapter="@{viewModel}"
         />
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
     <ProgressBar
         android:id="@+id/progressBar1"
@@ -34,5 +38,5 @@
         style="?android:attr/progressBarStyleLarge"
         />
 
-  </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

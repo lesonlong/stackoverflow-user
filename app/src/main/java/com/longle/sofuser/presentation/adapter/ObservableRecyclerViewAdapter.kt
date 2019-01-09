@@ -1,13 +1,14 @@
 package com.longle.sofuser.presentation.adapter
 
-import android.databinding.ObservableList
-import android.support.v7.widget.RecyclerView
+import androidx.databinding.ObservableList
+import androidx.recyclerview.widget.RecyclerView
 
 /**
  * ObservableRecyclerViewAdapter is used to allow changes to ObservableList to update the RecyclerView
  */
 abstract class ObservableRecyclerViewAdapter<T, Holder: RecyclerView.ViewHolder>(
-    private val items: ObservableList<T>) : RecyclerView.Adapter<Holder>() {
+    private val items: ObservableList<T>
+) : RecyclerView.Adapter<Holder>() {
 
   lateinit var onItemClickListener: (item: Any) -> Unit
 

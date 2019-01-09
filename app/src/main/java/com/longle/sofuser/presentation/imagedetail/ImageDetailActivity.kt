@@ -1,7 +1,7 @@
 package com.longle.sofuser.presentation.imagedetail
 
-import android.databinding.DataBindingUtil
 import android.os.Bundle
+import androidx.databinding.DataBindingUtil
 import com.longle.sofuser.R
 import com.longle.sofuser.presentation.BaseActivity
 import com.longle.sofuser.databinding.ActivityImageDetailBinding

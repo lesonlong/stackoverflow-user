@@ -1,8 +1,8 @@
 package com.longle.sofuser.presentation.userdetail
 
-import android.databinding.ObservableBoolean
-import android.databinding.ObservableField
 import android.os.Bundle
+import androidx.databinding.ObservableBoolean
+import androidx.databinding.ObservableField
 import com.domain.usecase.GetUserUseCase
 import com.domain.usecase.GetUserUseCase.Result
 import com.longle.sofuser.ext.addTo

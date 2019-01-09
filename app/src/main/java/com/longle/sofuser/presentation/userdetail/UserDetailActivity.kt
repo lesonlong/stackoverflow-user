@@ -1,8 +1,8 @@
 package com.longle.sofuser.presentation.userdetail
 
-import android.databinding.DataBindingUtil
 import android.os.Bundle
-import android.support.v7.app.AlertDialog
+import androidx.appcompat.app.AlertDialog
+import androidx.databinding.DataBindingUtil
 import com.longle.sofuser.R
 import com.longle.sofuser.presentation.BaseActivity
 import io.reactivex.disposables.CompositeDisposable
